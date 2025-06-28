@@ -62,10 +62,11 @@ function Home() {
 
       <TechSkills />
 
-          <div className='flex justify-center content-center'>
-            <SkillsCard />
-          </div>
+      <div className='flex justify-center content-center'>
+        <SkillsCard />
+      </div>
 
+      
     </>
   )
 }
