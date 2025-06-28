@@ -1,6 +1,7 @@
 import React from 'react'
 import TechSkills from '../components/techskills.jsx';
 import AboutMe from '../components/aboutme.jsx'
+import SkillsCard from '../components/SkillsCard.jsx';
 
     const meList = [
         {title: 'COMPETITVE', 
@@ -60,6 +61,11 @@ function Home() {
       </div>
 
       <TechSkills />
+
+          <div className='flex justify-center content-center'>
+            <SkillsCard />
+          </div>
+
     </>
   )
 }
