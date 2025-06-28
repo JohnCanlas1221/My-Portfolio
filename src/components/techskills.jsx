@@ -15,7 +15,7 @@ function techskills() {
                 <img src="./src/assets/images/mysql.png" className='w-auto h-9 hover:scale-130 duration-400 ease-in-out' />
                 <img src="./src/assets/images/git.png" className='w-auto h-9 hover:scale-130 duration-400 ease-in-out' />
                 <img src="./src/assets/images/visualstudio.png" className='w-auto h-9 hover:scale-130 duration-400 ease-in-out' />
-                <img src="./src/assets/images/vscode.png" className='w-auto h-9 hover:scale-130 duration-400 ease-in-out' />
+                <img src="./src/assets/images/vscode.png" className='w-auto h-9 hover:scale-130 duration-300 ease-in-out' />
 
             </div>
         </div>
