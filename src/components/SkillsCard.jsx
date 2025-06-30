@@ -1,16 +1,30 @@
 import React from 'react'
 import SkillCard from './SkillCard.jsx'
 
+    const skillList = [
+        {title: 'Web Development', 
+        description: 'I thrive in competitive environments where challenges push me to deliver my best. I see every task as an opportunity to improve, innovate, and exceed expectations.',
+        image: 'https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp' },      
+        {title: 'Desktop Development',
+        description: 'I am a self-driven individual who takes initiative and follows through with purpose. I believe in lifelong learning and consistently push myself to grow beyond my comfort zone.',
+        image: 'https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp' },
+        {title: 'Hardware', 
+        description: 'My faith plays a central role in who I am. It grounds my values, guides my decisions, and motivates me to serve others with integrity and compassion.',
+        image: 'https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp' },
+        {title: 'Microsoft Office', 
+        description: 'My faith plays a central role in who I am. It grounds my values, guides my decisions, and motivates me to serve others with integrity and compassion.',
+        image: 'https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp' },
+    ];
+
 function SkillsCard() {
   return (
     <>
-        <div className="grid grid-cols-3 grid-rows-2 gap-5">
-            <div className="col-start-1 col-end-2 row-start-1 row-end-2 bg-gray-900 border-2 border-solid border-cyan-500 p-10 text-white">
-                <SkillCard img={image} />
-            </div>
-            <div className="col-start-2 col-end-3 row-start-1 row-end-2 bg-gray-900 border-2 border-solid border-cyan-500 p-10 text-white">asd </div>
-            <div className="col-start-3 col-end-4 row-start-1 row-end-3 bg-gray-900 border-2 border-solid border-cyan-500 p-10 text-white">asd </div>
-            <div className="col-start-1 col-end-3 row-start-2 row-end-3 bg-gray-900 border-2 border-solid border-cyan-500 p-10 text-white">asd </div>
+        <div className="carousel carousel-center bg-neutral rounded-box max-w-md space-x-4 mb-10">
+            {skillList.map((e,i) => (
+                <div className="carousel-item" key={i}>
+                    <SkillCard skillTitle={e.title} skillDescription={e.description} skillImage={e.image} />
+                </div>
+            ))}
         </div>
     </>
   )
