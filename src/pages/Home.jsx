@@ -2,6 +2,8 @@ import React from 'react'
 import TechSkills from '../components/techskills.jsx';
 import AboutMe from '../components/aboutme.jsx'
 import SkillsCard from '../components/SkillsCard.jsx';
+import SkillCard from '../components/SkillCard.jsx';
+
 
     const meList = [
         {title: 'COMPETITVE', 
@@ -14,6 +16,7 @@ import SkillsCard from '../components/SkillsCard.jsx';
         description: 'My faith plays a central role in who I am. It grounds my values, guides my decisions, and motivates me to serve others with integrity and compassion.',
         image: './src/assets/images/pray.png' },
     ];
+
 
 function Home() {
   return (
@@ -50,9 +53,9 @@ function Home() {
           <h3 className='text-white text-2xl font-semibold'>About <span className='text-indigo-700'>Me</span></h3>
         </header>
 
-        <div className='grid grid-cols-1 gap-10 mt-10 mb-10 '>
+        <div className='grid grid-cols-1 gap-10 mt-10 mb-10'>
             {meList.map((e,i) => (
-                <div key={i} className='text-center p-10 bg-base-100 w-70 shadow-sm rounded-md hover:-translate-y-4 duration-400'>
+                <div key={i} className='text-center p-10 bg-base-100 w-fit shadow-sm rounded-md hover:-translate-y-4 duration-400'>
                 <AboutMe title={e.title} description={e.description} image={e.image}/>
                 </div>
             ))}
@@ -79,9 +82,13 @@ function Home() {
 
 
         {/* Feedback */}
-        <div>
-            
+        <div className='p-10'>
+            <header className='text-white text-center mb-10'>
+                <h3 className='text-3xl mb-5'>Let's Make This Better — Together</h3>
+                <p>Thank you for visiting my portfolio! I'm always looking to grow and improve, and your feedback plays a big part in that. Whether you spotted something that could be better, have suggestions for new features, or just want to say hello — I’d love to hear from you.</p>
+            </header>
         </div>
+        
     </>
   )
 }
