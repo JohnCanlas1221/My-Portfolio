@@ -22,12 +22,12 @@ function Home() {
   return (
     <>
     <div className="hero pl-10 pr-10 pt-20 pb-20 grid grid-cols-1 bg-[url(./src/assets/images/Background.jpg)] bg-center bg-no-repeat">
-        <div className="">
-          <div className="top">
+        <div className="grid lg:grid-cols-2 ">
+          <div className="lg:mt-10">
             <h3 className='text-white text-2xl font-semibold mb-1'>Hi, <span className='text-white text-lg'>I'm John Francis Canlas</span></h3>
             <h3 className='text-white text-4xl font-semibold mb-1'>ASPIRING <span className='text-indigo-700 mb-1'>WEB DEVELOPER</span></h3>
-          </div>
-          <p className='text-white text-sm text-justify mb-1'>Passionate for building user-friendly websites. I enjoy turning ideas into interactive digital experiences and continuously learning new technologies to improve my skills in front-end and back-end development.</p>
+
+                      <p className='text-white text-sm text-justify mb-1'>Passionate for building user-friendly websites. I enjoy turning ideas into interactive digital experiences and continuously learning new technologies to improve my skills in front-end and back-end development.</p>
           
           <div className="flex mt-3 gap-10">
             <div className="flex items-center gap-2">
@@ -38,8 +38,9 @@ function Home() {
             </div>
             <a href="./JohnCanlasCV.pdf" target='_blank' download className='text-white ink link-hover'>Download CV</a>
           </div>
+          </div>
 
-          <img src="./src/assets/images/Seminar.png" alt="" className="drop-shadow-lg hover:drop-shadow-neutral-50/50 duration-300 ease-out mt-10" />
+          <img src="./src/assets/images/Seminar.png" alt="" className="drop-shadow-lg hover:drop-shadow-neutral-50/50 duration-300 ease-out mt-10 md:m-auto md:mt-10 lg:w-90 sm:m-auto sm:mt-10" />
         </div>
 
       </div>
@@ -53,9 +54,9 @@ function Home() {
           <h3 className='text-white text-2xl font-semibold'>About <span className='text-indigo-700'>Me</span></h3>
         </header>
 
-        <div className='grid grid-cols-1 gap-10 mt-10 mb-10'>
+        <div className='grid grid-cols-1 gap-10 mt-10 mb-10 lg:grid-cols-3 2xl:grid-cols-1'>
             {meList.map((e,i) => (
-                <div key={i} className='text-center p-10 bg-base-100 w-fit shadow-sm rounded-md hover:-translate-y-4 duration-400'>
+                <div key={i} className='text-center p-10 bg-base-100 w-fit shadow-sm rounded-md hover:-translate-y-4 duration-400 lg:w-70 lg:h-90 lg:m-auto xl:w-80 xl:h-90 xl:m-auto 2xl:w-full 2xl:h-auto'>
                 <AboutMe title={e.title} description={e.description} image={e.image}/>
                 </div>
             ))}

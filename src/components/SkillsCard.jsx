@@ -19,7 +19,7 @@ import SkillCard from './SkillCard.jsx'
 function SkillsCard() {
   return (
     <>
-        <div className="carousel carousel-center bg-neutral rounded-box max-w-md space-x-4 mb-10">
+        <div className="carousel carousel-center rounded-box space-x-4 mb-10 md:w-full">
             {skillList.map((e,i) => (
                 <div className="carousel-item" key={i}>
                     <SkillCard skillTitle={e.title} skillDescription={e.description} skillImage={e.image} />
