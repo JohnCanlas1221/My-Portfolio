@@ -5,7 +5,7 @@ const dataProjects = [
     {
         titleProjectCard: "The Blog and Information Management System",
         descriptionProjectCard:
-            "The Blog and Information Management System is a web-based platform designed to streamline the creation, organization, and dissemination of announcements, articles, and updates. It allows administrators to manage content efficiently while providing users with easy access to relevant information.",
+            "The Blog and Information Management System is a web-based platform designed to streamline the creation, organization and updates.",
         imageProjectCard: "./src/assets/images/ImagePlaceholder.png",
         imageLaguagesProjectCard: [
             "./src/assets/images/html.png",
@@ -13,7 +13,8 @@ const dataProjects = [
             "./src/assets/images/react.png",
             "./src/assets/images/git.png",
         ],
-        githubLink: "",
+        githubLink:
+            "https://github.com/JohnCanlas1221/Blog-and-Information-Management-System",
     },
     {
         titleProjectCard: "Portfolio Website",
@@ -26,7 +27,34 @@ const dataProjects = [
             "./src/assets/images/react.png",
             "./src/assets/images/git.png",
         ],
-        githubLink: "",
+        githubLink: "https://github.com/JohnCanlas1221/My-Portfolio",
+    },
+    {
+        titleProjectCard: "Employer Tracking System ( OJT )",
+        descriptionProjectCard:
+            "A personal portfolio showcasing web projects and skills.",
+        imageProjectCard: "./src/assets/images/ImagePlaceholder.png",
+        imageLaguagesProjectCard: [
+            "./src/assets/images/html.png",
+            "./src/assets/images/tailwindcss.png",
+            "./src/assets/images/react.png",
+            "./src/assets/images/git.png",
+        ],
+        githubLink:
+            "https://github.com/JohnCanlas1221/Employer-Tracking-System-OJT-PROJECT",
+    },
+    {
+        titleProjectCard: "Portfolio Website",
+        descriptionProjectCard:
+            "A personal portfolio showcasing web projects and skills.",
+        imageProjectCard: "./src/assets/images/ImagePlaceholder.png",
+        imageLaguagesProjectCard: [
+            "./src/assets/images/html.png",
+            "./src/assets/images/tailwindcss.png",
+            "./src/assets/images/react.png",
+            "./src/assets/images/git.png",
+        ],
+        githubLink: "https://github.com/JohnCanlas1221/PhotoshopCS6",
     },
 ];
 
@@ -46,7 +74,7 @@ function Projects() {
             </div>
 
             {/* Project Lists */}
-            <div className="p-5 gap-x-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-5">
                 {dataProjects.map((project, i) => (
                     <div key={i}>
                         <ProjectCard
@@ -55,9 +83,10 @@ function Projects() {
                             descriptionProjectCard={
                                 project.descriptionProjectCard
                             }
-                            imageLaguagesProjectCard={
+                            imageLaguagesProjectCard={  
                                 project.imageLaguagesProjectCard
                             }
+                            githubLink={project.githubLink}
                         />
                     </div>
                 ))}
