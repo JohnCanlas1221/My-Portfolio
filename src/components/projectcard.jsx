@@ -1,6 +1,6 @@
 import React from "react";
 
-const projectcard = ({
+const ProjectCard = ({
     titleProjectCard,
     descriptionProjectCard,
     imageProjectCard,
@@ -55,4 +55,4 @@ const projectcard = ({
     );
 };
 
-export default projectcard;
+export default ProjectCard;
