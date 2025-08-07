@@ -9,17 +9,17 @@ const dataProjects = [
         imageProjectCard: "./src/assets/images/ImagePlaceholder.png",
         imageLaguagesProjectCard: [
             "./src/assets/images/html.png",
-            "./src/assets/images/tailwindcss.png",
-            "./src/assets/images/react.png",
+            "./src/assets/images/css.png",
+            "./src/assets/images/csharp.png",
             "./src/assets/images/git.png",
         ],
         githubLink:
             "https://github.com/JohnCanlas1221/Blog-and-Information-Management-System",
     },
     {
-        titleProjectCard: "Portfolio Website",
+        titleProjectCard: "Portfolio Website ( Front End )",
         descriptionProjectCard:
-            "A personal portfolio showcasing web projects and skills.",
+            "The Web Portfolio System is a platform that showcases my web development skills, projects, and achievements with a clean, responsive design.",
         imageProjectCard: "./src/assets/images/ImagePlaceholder.png",
         imageLaguagesProjectCard: [
             "./src/assets/images/html.png",
@@ -32,27 +32,23 @@ const dataProjects = [
     {
         titleProjectCard: "Employer Tracking System ( OJT )",
         descriptionProjectCard:
-            "A personal portfolio showcasing web projects and skills.",
+            "The Employer Tracking System is a form platform that tracks an employer’s building using Google search data, providing real-time monitoring without GPS or APIs.",
         imageProjectCard: "./src/assets/images/ImagePlaceholder.png",
         imageLaguagesProjectCard: [
-            "./src/assets/images/html.png",
-            "./src/assets/images/tailwindcss.png",
-            "./src/assets/images/react.png",
+            "./src/assets/images/visualstudio.png",
+            "./src/assets/images/sqlserver.png",
             "./src/assets/images/git.png",
         ],
         githubLink:
             "https://github.com/JohnCanlas1221/Employer-Tracking-System-OJT-PROJECT",
     },
     {
-        titleProjectCard: "Portfolio Website",
+        titleProjectCard: "Adobo Photoshop Editing ( CS6 ) ",
         descriptionProjectCard:
-            "A personal portfolio showcasing web projects and skills.",
+            "The Photoshop Editing (CS6) system highlights my ability to create and enhance visuals through techniques in Photoshop CS6, showcasing my skills in image creativity.",
         imageProjectCard: "./src/assets/images/ImagePlaceholder.png",
         imageLaguagesProjectCard: [
-            "./src/assets/images/html.png",
-            "./src/assets/images/tailwindcss.png",
-            "./src/assets/images/react.png",
-            "./src/assets/images/git.png",
+            "./src/assets/images/photoshop.png",
         ],
         githubLink: "https://github.com/JohnCanlas1221/PhotoshopCS6",
     },

@@ -21,7 +21,7 @@ import SkillCard from '../components/SkillCard.jsx';
 function Home() {
   return (
       <>
-          <div className="hero pl-10 pr-10 pt-20 pb-20 grid grid-cols-1 bg-[url(./src/assets/images/Background.jpg)] bg-center bg-no-repeat tracking-wide">
+          <div className="hero pl-10 pr-10 pt-20 pb-20 grid grid-cols-1 bg-[url(./src/assets/images/Background.jpg)] bg-center bg-no-repeat tracking-wide w-full">
               <div className="grid lg:grid-cols-2 ">
                   <div className="lg:mt-10">
                       <h3 className="text-white text-2xl font-semibold mb-1">
@@ -125,23 +125,24 @@ function Home() {
                       Skills
                   </h3>
               </header>
-              <SkillsCard />
-          </div>
 
-          {/* Feedback */}
-          <div className="p-10">
-              <header className="text-white text-center mb-10 tracking-wide">
-                  <h3 className="text-3xl mb-5">
-                      Let's Make This Better — Together
-                  </h3>
-                  <p className="w-[75%] m-auto text-[#848484]">
-                      Thank you for visiting my portfolio! I'm always looking to
-                      grow and improve, and your feedback plays a big part in
-                        that. Whether you spotted something that could be better,
-                        have suggestions for new features, or just want to say
-                        hello — I’d love to hear from you.
-                  </p>
-              </header>
+              {/* Feedback */}
+              <div className="p-10">
+                  <header className="text-white text-center mb-10 tracking-wide">
+                      <h3 className="text-3xl mb-5">
+                          Let's Make This Better — Together
+                      </h3>
+                      <p className="w-[75%] m-auto text-[#848484]">
+                          Thank you for visiting my portfolio! I'm always
+                          looking to grow and improve, and your feedback plays a
+                          big part in that. Whether you spotted something that
+                          could be better, have suggestions for new features, or
+                          just want to say hello — I’d love to hear from you.
+                      </p>
+                  </header>
+              </div>
+
+              <SkillsCard />
           </div>
       </>
   );

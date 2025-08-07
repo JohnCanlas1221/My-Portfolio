@@ -31,7 +31,7 @@ const projectCard = ({
                                     key={i}
                                     src={img}
                                     alt="imageLanguages"
-                                    className="w-6 h-6 rounded object-cover hover:scale-130 duration-400 ease-in-out"
+                                    className="w-5 h-5 rounded object-cover hover:scale-130 duration-400 ease-in-out"
                                 />
                             ))}
                         </div>
