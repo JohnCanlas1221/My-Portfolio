@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCard from "../components/ProjectCard.jsx"
+import ProjectCard from "src/components/ProjectCard.jsx"
 
 const dataProjects = [
     {
