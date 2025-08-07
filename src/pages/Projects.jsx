@@ -8,7 +8,7 @@ const dataProjects = [
             "The Blog and Information Management System is a web-based platform designed to streamline the creation, organization and updates.",
         imageProjectCard: "./src/assets/images/ImagePlaceholder.png",
         imageLaguagesProjectCard: [
-            "./src/assets/images/html.png",
+            "../assets/images/html.png",
             "./src/assets/images/css.png",
             "./src/assets/images/csharp.png",
             "./src/assets/images/git.png",
