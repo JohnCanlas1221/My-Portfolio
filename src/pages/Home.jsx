@@ -48,19 +48,19 @@ function Home() {
                       <div className="flex mt-3 gap-10">
                           <div className="flex items-center gap-2">
                               <img
-                                  src="./src/assets/images/Facebook.png"
+                                  src="src/assets/images/Facebook.png"
                                   className="hover:scale-130 duration-400 ease-in-out"
                               />
                               <img
-                                  src="./src/assets/images/LinkIn.png"
+                                  src="src/assets/images/LinkIn.png"
                                   className="hover:scale-130 duration-400 ease-in-out"
                               />
                               <img
-                                  src="./src/assets/images/Github.png"
+                                  src="src/assets/images/Github.png"
                                   className="hover:scale-130 duration-400 ease-in-out"
                               />
                               <img
-                                  src="./src/assets/images/Instagram.png"
+                                  src="src/assets/images/Instagram.png"
                                   className="hover:scale-130 duration-400 ease-in-out"
                               />
                           </div>
