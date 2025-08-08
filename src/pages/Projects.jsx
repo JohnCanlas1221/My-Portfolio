@@ -6,12 +6,12 @@ const dataProjects = [
         titleProjectCard: "The Blog and Information Management System",
         descriptionProjectCard:
             "The Blog and Information Management System is a web-based platform designed to streamline the creation, organization and updates.",
-        imageProjectCard: "./src/assets/images/ImagePlaceholder.png",
+        imageProjectCard: "/assets/images/ImagePlaceholder.png",
         imageLaguagesProjectCard: [
-            "./src/assets/images/html.png",
-            "./src/assets/images/css.png",
-            "./src/assets/images/csharp.png",
-            "./src/assets/images/git.png",
+            "/assets/images/html.png",
+            "/assets/images/css.png",
+            "/assets/images/csharp.png",
+            "/assets/images/git.png",
         ],
         githubLink:
             "https://github.com/JohnCanlas1221/Blog-and-Information-Management-System",
@@ -20,12 +20,12 @@ const dataProjects = [
         titleProjectCard: "Portfolio Website ( Front End )",
         descriptionProjectCard:
             "The Web Portfolio System is a platform that showcases my web development skills, projects, and achievements with a clean, responsive design.",
-        imageProjectCard: "./src/assets/images/ImagePlaceholder.png",
+        imageProjectCard: "/assets/images/ImagePlaceholder.png",
         imageLaguagesProjectCard: [
-            "./src/assets/images/html.png",
-            "./src/assets/images/tailwindcss.png",
-            "./src/assets/images/react.png",
-            "./src/assets/images/git.png",
+            "/assets/images/html.png",
+            "/assets/images/tailwindcss.png",
+            "/assets/images/react.png",
+            "/assets/images/git.png",
         ],
         githubLink: "https://github.com/JohnCanlas1221/My-Portfolio",
     },
@@ -33,11 +33,11 @@ const dataProjects = [
         titleProjectCard: "Employer Tracking System ( OJT )",
         descriptionProjectCard:
             "The Employer Tracking System is a form platform that tracks an employer’s building using Google search data, providing real-time monitoring without GPS or APIs.",
-        imageProjectCard: "./src/assets/images/ImagePlaceholder.png",
+        imageProjectCard: "/assets/images/ImagePlaceholder.png",
         imageLaguagesProjectCard: [
-            "./src/assets/images/visualstudio.png",
-            "./src/assets/images/sqlserver.png",
-            "./src/assets/images/git.png",
+            "/assets/images/visualstudio.png",
+            "/assets/images/sqlserver.png",
+            "/assets/images/git.png",
         ],
         githubLink:
             "https://github.com/JohnCanlas1221/Employer-Tracking-System-OJT-PROJECT",
@@ -46,8 +46,8 @@ const dataProjects = [
         titleProjectCard: "Adobo Photoshop Editing ( CS6 ) ",
         descriptionProjectCard:
             "The Photoshop Editing (CS6) system highlights my ability to create and enhance visuals through techniques in Photoshop CS6, showcasing my skills in image creativity.",
-        imageProjectCard: "./src/assets/images/ImagePlaceholder.png",
-        imageLaguagesProjectCard: ["./src/assets/images/photoshop.png"],
+        imageProjectCard: "/assets/images/ImagePlaceholder.png",
+        imageLaguagesProjectCard: ["/assets/images/photoshop.png"],
         githubLink: "https://github.com/JohnCanlas1221/PhotoshopCS6",
     },
 ];
