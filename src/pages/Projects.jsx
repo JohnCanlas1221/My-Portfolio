@@ -57,7 +57,7 @@ function Projects() {
         <div>
             {/* header  */}
             <div className="text-center p-5">
-                <h3 className="mb-1 font-bold text-2xl tracking-wide">
+                <h3 className="mb-1 font-bold text-2xl tracking-wide text-white">
                     PAST AND RECENT PROJECTS
                 </h3>
                 <p className="m-auto text-[#848484] text-[12px] tracking-wide">

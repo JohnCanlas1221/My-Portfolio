@@ -38,13 +38,13 @@ const ProjectCard = ({
 
                         <a
                             href={githubLink}
-                            className="rounded-3xl border-1 p-2 flex items-center justify-center w-35 lg:w-30 lg:ml-2">
+                            className="rounded-3xl border-1 p-2 flex items-center justify-center w-35 lg:w-30 lg:ml-2 border-white">
                             <img
                                 src="./src/assets/images/github.png"
                                 alt=""
                                 className="w-4.5"
                             />
-                            <label className="pl-2 text-sm">Interested</label>
+                            <label className="pl-2 text-sm text-white">Interested</label>
                         </a>
                     </div>
                 </div>
