@@ -8,20 +8,20 @@ import SkillCard from '../components/SkillCard.jsx';
     const meList = [
         {title: 'COMPETITVE', 
         description: 'I thrive in competitive environments where challenges push me to deliver my best. I see every task as an opportunity to improve, innovate, and exceed expectations.',
-        image: './src/assets/images/running.png' },      
+        image: '/assets/images/running.png' },      
         {title: 'SELF-MOTIVATED',
         description: 'I am a self-driven individual who takes initiative and follows through with purpose. I believe in lifelong learning and consistently push myself to grow beyond my comfort zone.',
-        image: './src/assets/images/self-confidence.png' },
+        image: '/assets/images/self-confidence.png' },
         {title: 'RELIGOUS', 
         description: 'My faith plays a central role in who I am. It grounds my values, guides my decisions, and motivates me to serve others with integrity and compassion.',
-        image: './src/assets/images/pray.png' },
+        image: '/assets/images/pray.png' },
     ];
 
 
 function Home() {
   return (
       <>
-          <div className="hero pl-10 pr-10 pt-20 pb-20 grid grid-cols-1 bg-[url(./src/assets/images/Background.jpg)] bg-center bg-no-repeat tracking-wide w-full">
+          <div className="hero pl-10 pr-10 pt-20 pb-20 grid grid-cols-1 bg-[url(/assets/images/Background.jpg)] bg-center bg-no-repeat tracking-wide w-full">
               <div className="grid lg:grid-cols-2 ">
                   <div className="lg:mt-10">
                       <h3 className="text-white text-2xl font-semibold mb-1">
@@ -75,7 +75,7 @@ function Home() {
                   </div>
 
                   <img
-                      src="./src/assets/images/Seminar.png"
+                      src="/assets/images/Seminar.png"
                       alt=""
                       className="drop-shadow-lg hover:drop-shadow-neutral-50/50 duration-300 ease-out mt-10 md:m-auto md:mt-10 lg:w-90 sm:m-auto sm:mt-10"
                   />
