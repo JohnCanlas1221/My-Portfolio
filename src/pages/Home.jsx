@@ -56,7 +56,7 @@ function Home() {
                                   className="hover:scale-130 duration-400 ease-in-out"
                               />
                               <img
-                                  src="/assets/images/Github.png"
+                                  src="/assets/images/github.png"
                                   className="hover:scale-130 duration-400 ease-in-out"
                               />
                               <img
