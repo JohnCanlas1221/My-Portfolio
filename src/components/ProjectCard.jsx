@@ -18,7 +18,7 @@ const ProjectCard = ({
                     />
                 </div>
                 <div>
-                    <h3 className="text-xl font-bold mb-3">
+                    <h3 className="text-xl font-bold mb-3 text-white">
                         {titleProjectCard}
                     </h3>
                     <p className="text-sm text-justify mb-3 text-[#848484]">
