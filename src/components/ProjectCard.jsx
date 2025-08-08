@@ -40,7 +40,7 @@ const ProjectCard = ({
                             href={githubLink}
                             className="rounded-3xl border-1 p-2 flex items-center justify-center w-35 lg:w-30 lg:ml-2 border-white">
                             <img
-                                src="./src/assets/images/github.png"
+                                src="/assets/images/github.png"
                                 alt=""
                                 className="w-4.5"
                             />

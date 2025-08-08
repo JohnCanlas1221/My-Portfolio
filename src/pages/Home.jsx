@@ -98,7 +98,7 @@ function Home() {
                   {meList.map((e, i) => (
                       <div
                           key={i}
-                          className="text-center p-10 bg-base-100 w-fit shadow-sm rounded-md hover:-translate-y-4 duration-400 lg:w-70 lg:h-90 lg:m-auto xl:w-80 xl:h-90 xl:m-auto 2xl:w-full 2xl:h-auto tracking-wide">
+                          className="text-center p-10 bg-slate-900 w-fit rounded-md hover:-translate-y-4 duration-400 lg:w-70 lg:h-90 lg:m-auto xl:w-80 xl:h-90 xl:m-auto 2xl:w-full 2xl:h-auto tracking-wide">
                           <AboutMe
                               title={e.title}
                               description={e.description}
