@@ -5,7 +5,7 @@ function SkillCard( { skillImage, skillTitle, skillDescription } ) {
       <>
           <div className="card bg-slate-900 w-69 shadow-sm">
               <figure className="px-5 pt-5">
-                  <img src={skillImage} alt="Shoes" className="rounded-xl" />
+                  <img src={skillImage} alt="Shoes" className="rounded-xl h-30 w-full" />
               </figure>
               <div className="card-body items-center text-center tracking-wide">
                   <h2 className="card-title">{skillTitle}</h2>

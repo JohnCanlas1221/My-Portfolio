@@ -2,22 +2,37 @@ import React from 'react'
 import SkillCard from './SkillCard.jsx'
 
     const skillList = [
-        {title: 'Web Development', 
-        description: 'I thrive in competitive environments where challenges push me to deliver my best. I see every task as an opportunity to improve, innovate, and exceed expectations.',
-        image: '/assets/images/ImagePlaceholder.png' },      
-        {title: 'Desktop Development',
-        description: 'I am a self-driven individual who takes initiative and follows through with purpose. I believe in lifelong learning and consistently push myself to grow beyond my comfort zone.',
-        image: '/assets/images/ImagePlaceholder.png' },
-        {title: 'Figma', 
-        description: 'My faith plays a central role in who I am. It grounds my values, guides my decisions, and motivates me to serve others with integrity and compassion.',
-        image: '/assets/images/ImagePlaceholder.png' },
-        {title: 'Hardware', 
-        description: 'My faith plays a central role in who I am. It grounds my values, guides my decisions, and motivates me to serve others with integrity and compassion.',
-        image: '/assets/images/ImagePlaceholder.png' },
-        {title: 'Microsoft Office', 
-        description: 'My faith plays a central role in who I am. It grounds my values, guides my decisions, and motivates me to serve others with integrity and compassion.',
-        image: '/assets/images/ImagePlaceholder.png' },
-    ];
+        {
+            title: "Web Development",
+            description:
+                "Develops responsive and dynamic websites with clean, efficient code, ensuring both functionality and an engaging user experience.",
+            image: "/assets/images/webdev.jpg",
+        },
+        {
+            title: "Desktop Development",
+            description:
+                "Designs and builds reliable, high-performance desktop applications tailored to specific user needs.",
+            image: "/assets/images/desktopdev.png",
+        },
+        {
+            title: "Figma",
+            description:
+                "Creates modern, intuitive UI/UX designs and interactive prototypes that enhance usability and visual appeal.",
+            image: "/assets/images/figmaedits.png",
+        },
+        {
+            title: "Hardware",
+            description:
+                "Experienced in diagnosing, repairing, upgrading, and maintaining computer hardware to ensure peak performance.",
+            image: "/assets/images/hardware.jpg",
+        },
+        {
+            title: "Microsoft Office",
+            description:
+                "Proficient in Word, Excel, and PowerPoint, producing professional documents, detailed reports, and impactful presentations.",
+            image: "/assets/images/micro-office.jpg",
+        },
+    ];  
 
 function SkillsCard() {
   return (

@@ -14,7 +14,7 @@ const ProjectCard = ({
                     <img
                         src={imageProjectCard}
                         alt=""
-                        className="w-full rounded-md mb-4 sm:w-full md:w-full lg:w-full"
+                        className="w-full rounded-md mb-4 sm:w-full md:w-full lg:w-full h-30"
                     />
                 </div>
                 <div>
@@ -44,7 +44,9 @@ const ProjectCard = ({
                                 alt=""
                                 className="w-4.5"
                             />
-                            <label className="pl-2 text-sm text-white">Interested</label>
+                            <label className="pl-2 text-sm text-white">
+                                Interested
+                            </label>
                         </a>
                     </div>
                 </div>

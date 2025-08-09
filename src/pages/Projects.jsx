@@ -6,7 +6,7 @@ const dataProjects = [
         titleProjectCard: "The Blog and Information Management System",
         descriptionProjectCard:
             "The Blog and Information Management System is a web-based platform designed to streamline the creation, organization and updates.",
-        imageProjectCard: "/assets/images/ImagePlaceholder.png",
+        imageProjectCard: "/assets/images/SchoolBlog.png",
         imageLaguagesProjectCard: [
             "/assets/images/html.png",
             "/assets/images/css.png",
@@ -20,7 +20,7 @@ const dataProjects = [
         titleProjectCard: "Portfolio Website ( Front End )",
         descriptionProjectCard:
             "The Web Portfolio System is a platform that showcases my web development skills, projects, and achievements with a clean, responsive design.",
-        imageProjectCard: "/assets/images/ImagePlaceholder.png",
+        imageProjectCard: "/assets/images/Portfolio.png",
         imageLaguagesProjectCard: [
             "/assets/images/html.png",
             "/assets/images/tailwindcss.png",
@@ -33,7 +33,7 @@ const dataProjects = [
         titleProjectCard: "Employer Tracking System ( OJT )",
         descriptionProjectCard:
             "The Employer Tracking System is a form platform that tracks an employer’s building using Google search data, providing real-time monitoring without GPS or APIs.",
-        imageProjectCard: "/assets/images/ImagePlaceholder.png",
+        imageProjectCard: "/assets/images/ERTS.png",
         imageLaguagesProjectCard: [
             "/assets/images/visualstudio.png",
             "/assets/images/sqlserver.png",
@@ -46,7 +46,7 @@ const dataProjects = [
         titleProjectCard: "Adobo Photoshop Editing ( CS6 ) ",
         descriptionProjectCard:
             "The Photoshop Editing (CS6) system highlights my ability to create and enhance visuals through techniques in Photoshop CS6, showcasing my skills in image creativity.",
-        imageProjectCard: "/assets/images/ImagePlaceholder.png",
+        imageProjectCard: "/assets/images/photoshopedits.png",
         imageLaguagesProjectCard: ["/assets/images/photoshop.png"],
         githubLink: "https://github.com/JohnCanlas1221/PhotoshopCS6",
     },
