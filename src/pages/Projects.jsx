@@ -3,6 +3,15 @@ import ProjectCard from "../components/ProjectCard.jsx";
 
 const dataProjects = [
     {
+        titleProjectCard: "Figma Design UI/UX Projects",
+        descriptionProjectCard:
+            "UI/UX design projects in Figma, featuring modern layouts, wireframes, prototypes, and creative concepts that balance functionality with visual appeal.",
+        imageProjectCard: "/assets/images/figmaedits.png",
+        imageLaguagesProjectCard: ["/assets/images/figma.png"],
+        githubLink:
+            "https://www.figma.com/design/oxSX90qPAA1di1uDKtE9FZ/Figma-Projects?node-id=1-3&t=ejM4UdsBnqLiIK6f-1",
+    },
+    {
         titleProjectCard: "The Blog and Information Management System",
         descriptionProjectCard:
             "The Blog and Information Management System is a web-based platform designed to streamline the creation, organization and updates.",
@@ -77,7 +86,7 @@ function Projects() {
                             descriptionProjectCard={
                                 project.descriptionProjectCard
                             }
-                            imageLaguagesProjectCard={  
+                            imageLaguagesProjectCard={
                                 project.imageLaguagesProjectCard
                             }
                             githubLink={project.githubLink}
